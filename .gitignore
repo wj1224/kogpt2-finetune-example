@@ -1,0 +1,14 @@
+# cache
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+
+# Folder
+kogpt2/
+data/
+checkpoints/
+wandb/
+
+# File
+*.ipynb
+*.log
