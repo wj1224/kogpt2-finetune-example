@@ -17,9 +17,12 @@ pip install -r requirements.txt
 |2|놀러 가고 싶으면 어쩔려고|놀러 가고 싶으면 우얄라고|
 
 ## Training
-
-dialect_translator/config.py  
-train_path, test_path 변경
+```bash
+$ cd kogpt2-finetune-example/dialect_translator
+$ pwd
+/home/user/kogpt2-finetune-example/dialect_translator
+```
+config.py train_path, test_path 변경
 
 ```bash
 python main.py --train
@@ -36,6 +39,11 @@ python main.py --train --wandb --project $PROJECT_NAME --entity $WANDB_ENTITY --
 ```
 
 ## Translator demo example
+```bash
+$ cd ..
+$ pwd
+/home/user/kogpt2-finetune-example
+```
 run_fastapi.py 체크포인트 경로 변경
 
 ```bash
